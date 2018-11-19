@@ -90,7 +90,7 @@ function onTapMovimientos(args){
 
     var navigationEntry = {
 
-        moduleName: "prueba",
+        moduleName: "movimientospages/movimientos-home",
         animated: true,
         transition: {
             name: "slideLeft"
