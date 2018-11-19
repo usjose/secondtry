@@ -1,0 +1,28 @@
+﻿
+<Page class="page hojaCuaderno" shownModally="onShownModally" loaded="onLoaded">
+
+    <StackLayout>
+
+        <StackLayout class="encabezadoFormulario" horizontalAlignment="center" orientation="vertical" >
+
+                    <Label text="REGISTRO DE INGRESO" class="tituloFormularioModal" />
+                    <Label text="Selecciona el tamaño del ganado que ingresó" class="subTituloFormularioModal" />
+
+
+        </StackLayout>
+
+
+        <StackLayout class="stackModal">
+
+
+
+
+            <ListPicker items="{{ tamanios }}" selectedIndex="{{ tamanioIndex }}" />
+
+            <Button class="btn btn-primary btn-rounded-sm btn-active" text="Seleccionar" tap="onTapSeleccionar" />
+            
+        </StackLayout>
+
+    </StackLayout>
+
+</Page>

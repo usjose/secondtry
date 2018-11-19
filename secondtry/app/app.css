@@ -1,0 +1,320 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme. 
+The imported CSS rules must precede all other types of rules.
+*/
+@import 'nativescript-theme-core/css/core.light.css';
+
+/*
+The following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.tablaPino {
+    background-image: ~/Imagenes/pine.jpg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondoAdvertencia {
+    background-image: ~/Imagenes/fondoadvertencia.jpg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.hojaCuaderno {
+    background-image: ~/Imagenes/cuaderno.jpg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondoBeige {
+    background-image: ~/Imagenes/hojatextura.jpg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tituloPastos{
+
+	margin-top:40;
+	font-size: 50em;
+	text-align: center;
+	color:black;
+}
+
+.subTituloPastos{
+
+
+	font-size: 30em;
+	text-align: center;
+	color:black;
+	margin-bottom: 30;
+	
+}
+
+.captionAdvertencia{
+
+	margin-top:40;
+	font-size: 30em;
+	text-align: center;
+	color:red;
+}
+
+.wrapBotones{
+
+
+}
+
+.encabezadoTabla{
+
+	font-size:30;
+	color:black;
+	align-self: center;
+	text-align: center;
+	
+
+
+}
+
+
+.itemTabla{
+
+	font-size:25;
+	text-align: center;
+	align-self: center;
+	padding: 10;
+	/*
+	border-color: black;
+	border-width: 0.5;
+	*/
+
+
+
+}
+
+.itemTablaObservacion{
+	font-size:20;
+	text-align: left;
+	align-self: left;
+	padding: 10;
+
+	white-space: normal;
+
+
+
+}
+
+.itemTablaLabelSwitch{
+
+	/*visibility: hidden;*/
+	font-size:0;
+
+}
+
+.tablaResultados{
+
+	/*
+	border-color: black;
+	border-width: 0.5;
+	padding:50;
+
+	height: 100%;
+	*/
+
+}
+
+.switches{
+
+	margin: 15;
+
+}
+
+.switchContainer{
+
+	margin-top:30;
+	margin-left:10;
+	margin-right:10;
+	margin-bottom:30;
+
+}
+
+
+.listPickerDisplay{
+
+	font-size: 20em;
+	color:black;
+
+}
+
+
+.captionCheckBox{
+
+	font-size: 20em;
+	text-align: left;
+	color:black;
+	margin: 15,15,15,30;
+}
+
+
+
+
+
+.btn {
+    font-size: 18;
+}
+
+.MenuTile{
+	align-content: center;
+	width: 250;
+	/*background-color: lime;*/
+	margin: 15;
+}
+.encabezadoFormulario{
+
+	
+
+}
+
+.tituloFormulario{
+
+	font-size:30;
+	align-self: center;
+
+
+}
+
+.subTituloFormulario{
+
+	font-size:20;
+	margin-bottom: 20;
+	align-self: center;
+
+}
+
+.tituloFormularioModal{
+
+	font-size:30;
+	align-self: center;
+	margin-top:80;
+
+
+}
+
+.subTituloFormularioModal{
+
+	font-size:20;
+	margin-bottom: 5;
+	align-self: center;
+
+}
+
+.DescripcionTile{
+
+	margin-right: 20;
+	margin-left: 20;
+	height: 70;
+
+}
+
+.ImagenMenu{
+
+	/*margin-left:15;
+	margin-right:15;
+	margin-top:30;
+	margin-bottom:30;
+	box-shadow: 80 80 80 #DCDCDC;*/
+	
+	margin:auto;
+
+	height: 240;
+	width: 300;
+
+}
+
+.grupoPregunta{
+
+	margin-top:12;
+}
+
+.puntoFormulario{
+
+	font-size: 27;
+	margin-left:50;
+	margin-top: 2;
+
+}
+
+
+
+.respuestaFormulario{
+
+	font-size: 27;
+	margin-left: 100;
+	margin-top: 2;
+}
+
+.areaTexto{
+
+	width: 400;
+}
+
+.puntoFormularioSmall{
+
+	margin-top: 2;
+	margin-left: 20;
+	
+
+
+}
+
+.respuestaFormularioSmall{
+
+	margin-top: 2;
+	margin-left: 40;
+
+	
+}
+
+
+.botonesOkAtras{
+
+	margin-top: 50;
+
+	/*margin-left: 280;*/
+	position: center;
+
+
+	}
+
+
+
+.botonOkAtras{
+
+	height: 140;
+	width: 140;
+	margin-right: 18;
+	margin-left: 18;
+	
+
+}
+
+.stackModal{
+
+	margin-top: 0;
+
+}
+
+
+

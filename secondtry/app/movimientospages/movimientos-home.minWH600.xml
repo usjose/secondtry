@@ -1,0 +1,58 @@
+﻿<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page tablaPino">
+    <!--
+    The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
+    http://docs.nativescript.org/ui/action-bar
+    -->
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <!--
+    The StackLayout stacks UI components on the screen—either vertically or horizontally.
+    In this case, the StackLayout does vertical stacking; you can change the stacking to
+    horizontal by applying a orientation="horizontal" attribute to the <StackLayout> element.
+    You can learn more about NativeScript layouts at
+    https://docs.nativescript.org/ui/layout-containers.
+
+    These components make use of several CSS class names that are part of the NativeScript
+    core theme, such as p-20, btn, h2, and text-center. You can view a full list of the
+    class names available for styling your app at https://docs.nativescript.org/ui/theme.
+    -->
+
+    <StackLayout class="p-20">
+
+        <Label text="MOVIMIENTOS" class="tituloPastos"/>
+        <Label text="¿Qué clase de movimiento deseas registrar?" class="subTituloPastos"/>
+
+        
+        <scrollView>
+            
+            <WrapLayout orientation="horizontal" margin="auto" class="wrapBotones" horizontalAlignment="center" >
+
+                <Image src="res://ingresos" class = "ImagenMenu" tap="onTapIngresos" stretch ="none" horizontalAlignment="center"/>
+
+                <Image src="res://salidas"  class = "ImagenMenu" tap="onTapSalidas" stretch ="none" horizontalAlignment="center"/>
+
+                <Image src="res://internos"  class = "ImagenMenu" tap="onTapMI" stretch ="none" horizontalAlignment="center"/>
+
+
+              </WrapLayout>
+
+            
+                
+        </scrollView>
+
+        <StackLayout class="botonesOkAtras" orientation="horizontal" horizontalAlignment="center">
+
+
+                    <Image src="res://inicio" class = "botonOkAtras" tap="onTapInicio"  horizontalAlignment="center"/>
+
+        </StackLayout>
+
+
+
+
+
+
+    </StackLayout>
+</Page>
