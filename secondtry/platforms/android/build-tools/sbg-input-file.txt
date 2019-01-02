@@ -1,1 +1,1 @@
-/Users/usjose/Documents/DesarrollosNativeScript/SecondTry/secondtry/platforms/android/app/src/main/assets/app
+/Users/usjose/GitHub/Repositories/secondtry/secondtry/platforms/android/app/src/main/assets/app

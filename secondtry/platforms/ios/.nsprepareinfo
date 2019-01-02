@@ -1,0 +1,28 @@
+{
+	"time": "Tue Jan 01 2019 20:32:19 GMT-0500 (-05)",
+	"nativePlatformStatus": "3",
+	"bundle": false,
+	"release": false,
+	"changesRequireBuild": false,
+	"projectFileHash": "1401fa2e60827a94806f335de5cd2fc145a8f6094ecb82858e03fe33dc846465",
+	"changesRequireBuildTime": "Tue Jan 01 2019 20:11:41 GMT-0500 (-05)",
+	"appFilesHashes": {
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/.DS_Store": "effe5c75a43b14eb633eef723146d311e25c81c0",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/Imagenes/.DS_Store": "df2fbeb1400acda0909a32c1cf6bf492f1121e07",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/Imagenes/cuaderno.jpg": "5455affdba28e87442033ab7b08dada1fc32c9d4",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/app-root.xml": "098b6d5ef83afc0d5927df3329dd6e1b11693d87",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/app.css": "6ca1486f10006732fef5463df4c33e2551d643ab",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/app.js": "51fe37fb0847709d2ae685dc786d3118965e8da6",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/error.xml": "75961321cbfdcd78d48012c41500fb28b68eed58",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/frmedipermisos.js": "3b0daea03bbcaebc2ccf0ee008b2ac50864cb8f5",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/frmedipermisos.xml": "99b34112becded1209ddaa34e67604627f16d6f7",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/main-page.js": "ea12e8cc61dc9b1e91f64c331b37df4842d5ef8d",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/main-page.xml": "192f8566461fc2706415bc62376536c71ec625c5",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/main-view-model.js": "c992a312cf62a165ab32176febc47b6a4b6f2367",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/package.json": "554a1e7b09cfa1663c75683765118999cb11411a",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/references.d.ts": "c83a3304d98c2586359871f5d8ac10c8aa8af848",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/Imagenes/hojatextura.jpg": "b91768e37678335cd4f86cccafcd99da2b51bc17",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/Imagenes/fondoadvertencia.jpg": "06260677b53c0d0c5f7076881a812bc8f5dc0679",
+		"/Users/usjose/GitHub/Repositories/secondtry/secondtry/app/Imagenes/pine.jpg": "f329033657fe36bcd422bff76ed21501f4fde22e"
+	}
+}

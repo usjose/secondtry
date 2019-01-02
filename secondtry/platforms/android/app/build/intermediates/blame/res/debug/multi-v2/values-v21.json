@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/usjose/Documents/DesarrollosNativeScript/SecondTry/secondtry/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/usjose/GitHub/Repositories/secondtry/secondtry/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
+                {
+                    "source": "/Users/usjose/GitHub/Repositories/secondtry/secondtry/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "from": {
+                        "startLines": "4,19,10,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "87,745,365,585",
+                        "endLines": "7,21,12,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "299,885,519,739"
+                    },
+                    "to": {
+                        "startLines": "7,230,271,274",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "398,17174,19668,19827",
+                        "endLines": "10,232,273,276",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "610,17314,19822,19981"
+                    }
+                },
                 {
                     "source": "/Users/usjose/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ee04f353b46d5887a5f44025815b0a9c/res/values-v21/values-v21.xml",
                     "from": {
@@ -42,23 +61,6 @@
                     }
                 },
                 {
-                    "source": "/Users/usjose/Documents/DesarrollosNativeScript/SecondTry/secondtry/platforms/android/app/src/main/res/values-v21/colors.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "1",
-                        "startOffsets": "52",
-                        "endColumns": "40",
-                        "endOffsets": "91"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "159",
-                        "endColumns": "43",
-                        "endOffsets": "198"
-                    }
-                },
-                {
                     "source": "/Users/usjose/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/89c8de3da03deb27e1c74f42776f59ad/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,10,18,26",
@@ -78,25 +80,6 @@
                     }
                 },
                 {
-                    "source": "/Users/usjose/Documents/DesarrollosNativeScript/SecondTry/secondtry/platforms/android/app/src/main/res/values-v21/styles.xml",
-                    "from": {
-                        "startLines": "4,19,10,15",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "87,745,365,585",
-                        "endLines": "7,21,12,17",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "299,885,519,739"
-                    },
-                    "to": {
-                        "startLines": "7,230,271,274",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "398,17174,19668,19827",
-                        "endLines": "10,232,273,276",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "610,17314,19822,19981"
-                    }
-                },
-                {
                     "source": "/Users/usjose/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6197ecdf338fef437cd26e17382ba72a/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
@@ -113,6 +96,23 @@
                         "endLines": "2,4,5,6,277,278,285,289,327,332",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,262,329,393,20097,20223,20680,20976,23028,23366"
+                    }
+                },
+                {
+                    "source": "/Users/usjose/GitHub/Repositories/secondtry/secondtry/platforms/android/app/src/main/res/values-v21/colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "1",
+                        "startOffsets": "52",
+                        "endColumns": "40",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endColumns": "43",
+                        "endOffsets": "198"
                     }
                 }
             ]

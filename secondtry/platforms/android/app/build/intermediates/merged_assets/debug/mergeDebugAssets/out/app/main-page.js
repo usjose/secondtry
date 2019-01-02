@@ -77,26 +77,30 @@ function onTapMovimientos(args){
     console.log("Entró a onTapMovimientos");
     var myTopMostFrame = frames.getFrameById("topmost");
 
-    // var navigationEntry = {
-
-    //     moduleName: "movimientospages/movimientos-home",
-    //     animated: true,
-    //     transition: {
-    //         name: "slideLeft"
-    //     }
-
-    // };
 
 
-    var navigationEntry = {
+    var page = args.object;
 
-        moduleName: "prueba",
-        animated: true,
-        transition: {
-            name: "slideLeft"
-        }
+            var permisosSeleccionado = new Array();
 
-    };
+            for(var pot = 0; pot < 15; pot++){
+
+                permisosSeleccionado.push("Finca X","Potrero "+ pot, 0,1,(pot%2));
+
+            }
+
+            console.dir("permisosSeleccionado : ");
+            console.dir(permisosSeleccionado);
+
+            var navigationEntry = {
+
+                moduleName: "frmedipermisos",
+                context:permisosSeleccionado,
+                transition: {
+                    name: "slideLeft"
+                }
+
+            };
 
     console.log("Justo antes de rutear navigationEntry");
     console.dir(navigationEntry);

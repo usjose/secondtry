@@ -39,22 +39,22 @@ https://docs.nativescript.org/ui/components.
 
         <scrollView>
             
-            <WrapLayout orientation="horizontal" horizontalAlignment="center" class="wrapBotones">
+            <WrapLayout orientation="horizontal" margin="auto" class="wrapBotones" horizontalAlignment="center">
 
-                <Image src="res://movimientos" class = "ImagenMenu" tap="onTapMovimientos" stretch ="none" horizontalAlignment="center"/>
+                <Image src="res://movimientos" class = "ImagenMenu" tap="onTapMovimientos" stretch ="aspectFill" horizontalAlignment="center"/>
                
 
-                <Image src="res://consultas"  class = "ImagenMenu" tap="onTapConsultas" stretch ="none" horizontalAlignment="center"/>
+                <Image src="res://consultas"  class = "ImagenMenu" tap="onTapConsultas" stretch ="aspectFill" horizontalAlignment="center" />
 
-                <Image src="res://propietarios"  class = "ImagenMenu" tap="onTapPropietarios" stretch ="none" horizontalAlignment="center"/>
+                <Image src="res://propietarios"  class = "ImagenMenu" tap="onTapPropietarios" stretch ="aspectFill" horizontalAlignment="center"/>
 
-                <Image src="res://usuarios"  class = "ImagenMenu" tap="onTapUsuarios" stretch ="none" horizontalAlignment="center"/>
+                <Image src="res://usuarios"  class = "ImagenMenu" tap="onTapUsuarios" stretch ="aspectFill" horizontalAlignment="center"/>
 
-                <Image src="res://potreros"  class = "ImagenMenu" tap="onTapPotreros" stretch ="none" horizontalAlignment="center"/>
+                <Image src="res://potreros"  class = "ImagenMenu" tap="onTapPotreros" stretch ="aspectFill" horizontalAlignment="center"/>
 
-                <Image src="res://notificaciones"  class = "ImagenMenu" tap="onTapNotificaciones" stretch ="none" horizontalAlignment="center"/>
+                <Image src="res://notificaciones"  class = "ImagenMenu" tap="onTapNotificaciones" stretch ="aspectFill" horizontalAlignment="center"/>
 
-              </WrapLayout>
+            </WrapLayout>
 
         </scrollView>
 
